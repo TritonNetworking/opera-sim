@@ -1,4 +1,4 @@
-# opera
+# opera-sim
 Packet-level simulation code to model Opera and other networks from the 2020 NSDI paper "Expanding across time to deliver bandwidth efficieny and low latency"
 
 Requirements:
