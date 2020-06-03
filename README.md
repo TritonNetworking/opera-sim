@@ -27,7 +27,9 @@ Typical workflow:
 - Compile the simulator as described above (for Clos, expander, and Opera).
 - Build a topology file (e.g. run /topologies/opera_dynexp_topo_gen/MAIN.m). This must be done once for expander and Opera networks, is not needed for Clos networks.
 - Generate a file specifying the traffic (e.g. run /Figure7_datamining/opera/traffic_gen/generate_traffic.m). The file format is (where src_host and dst_host are indexed from zero):
+  ```
   <src_host> <dst_host> <flow_size_bytes> <flow_start_time_nanosec> /newline
+  ```
 - Specify the simulation parameters and run (e.g. run /Figure7_datamining/opera/sim/run.sh).
 - Post-process the simulation data (e.g. run /Figure7_datamining/opera/plot/process_FCT_and_UTIL.m).
 - Plot the post-processed data (e.g. run /Figure7_datamining/opera/plot/plotter.m)
