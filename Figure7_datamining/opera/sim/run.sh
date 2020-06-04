@@ -1,0 +1,7 @@
+#!/bin/sh
+
+../../../src/opera/datacenter/htsim_ndp_dynexpTopology -simtime 10.00001 -cutoff 15000000 -rlbflow 0 -cwnd 20 -q 8 -pullrate 1 -topfile ../../../topologies/dynexp_N=108_k=12_1path.txt -flowfile ../traffic_gen/flows_1percLoad_10sec_648hosts.htsim >> FCT_pfab_cwnd20_1perc.txt
+../../../src/opera/datacenter/htsim_ndp_dynexpTopology -simtime 10.00001 -cutoff 15000000 -rlbflow 0 -cwnd 20 -q 8 -pullrate 1 -topfile ../../../topologies/dynexp_N=108_k=12_1path.txt -flowfile ../traffic_gen/flows_10percLoad_10sec_648hosts.htsim >> FCT_pfab_cwnd20_10perc.txt
+../../../src/opera/datacenter/htsim_ndp_dynexpTopology -simtime 10.00001 -cutoff 15000000 -rlbflow 0 -cwnd 20 -q 8 -pullrate 1 -topfile ../../../topologies/dynexp_N=108_k=12_1path.txt -flowfile ../traffic_gen/flows_25percLoad_10sec_648hosts.htsim >> FCT_pfab_cwnd20_25perc.txt
+../../../src/opera/datacenter/htsim_ndp_dynexpTopology -simtime 10.00001 -cutoff 15000000 -rlbflow 0 -cwnd 20 -q 8 -pullrate 1 -topfile ../../../topologies/dynexp_N=108_k=12_1path.txt -flowfile ../traffic_gen/flows_30percLoad_10sec_648hosts.htsim >> FCT_pfab_cwnd20_30perc.txt
+../../../src/opera/datacenter/htsim_ndp_dynexpTopology -simtime 10.00001 -cutoff 15000000 -rlbflow 0 -cwnd 20 -q 8 -pullrate 1 -topfile ../../../topologies/dynexp_N=108_k=12_1path.txt -flowfile ../traffic_gen/flows_40percLoad_10sec_648hosts.htsim >> FCT_pfab_cwnd20_40perc.txt

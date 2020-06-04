@@ -1,0 +1,5 @@
+#/bin/sh
+
+../../../src/opera/datacenter/htsim_ndp_dynexpTopology -simtime 1.00001 -cutoff 30000000 -rlbflow 100000 -cwnd 20 -q 8 -pullrate 1 -topfile ../../../topologies/dynexp_N=108_k=12_5paths.txt -flowfile ../traffic_gen/flows_1percLLload_1sec_648hosts.htsim >> FCT_cwnd20_1perc_LL_5paths.txt
+../../../src/opera/datacenter/htsim_ndp_dynexpTopology -simtime 1.00001 -cutoff 30000000 -rlbflow 100000 -cwnd 20 -q 8 -pullrate 1 -topfile ../../../topologies/dynexp_N=108_k=12_5paths.txt -flowfile ../traffic_gen/flows_5percLLload_1sec_648hosts.htsim >> FCT_cwnd20_5perc_LL_5paths.txt
+../../../src/opera/datacenter/htsim_ndp_dynexpTopology -simtime 1.00001 -cutoff 30000000 -rlbflow 100000 -cwnd 20 -q 8 -pullrate 1 -topfile ../../../topologies/dynexp_N=108_k=12_5paths.txt -flowfile ../traffic_gen/flows_10percLLload_1sec_648hosts.htsim >> FCT_cwnd20_10perc_LL_5paths.txt

@@ -1,0 +1,8 @@
+#!/bin/sh
+
+../../../src/expander/datacenter/htsim_ndp_expander -simtime 1.00001 -cwnd 30 -q 46 -pullrate 1 -VLB 0 -topfile ../../../topologies/expander_N=130_u=7_ecmp.txt -flowfile ../traffic_gen/flows_u7exp_1percLLload_1sec_650hosts.htsim >> FCT_exp_cwnd30_q46_1perc_VLB0.txt
+../../../src/expander/datacenter/htsim_ndp_expander -simtime 1.00001 -cwnd 30 -q 46 -pullrate 1 -VLB 0 -topfile ../../../topologies/expander_N=130_u=7_ecmp.txt -flowfile ../traffic_gen/flows_u7exp_5percLLload_1sec_650hosts.htsim >> FCT_exp_cwnd30_q46_5perc_VLB0.txt
+../../../src/expander/datacenter/htsim_ndp_expander -simtime 1.00001 -cwnd 30 -q 46 -pullrate 1 -VLB 0 -topfile ../../../topologies/expander_N=130_u=7_ecmp.txt -flowfile ../traffic_gen/flows_u7exp_10percLLload_1sec_650hosts.htsim >> FCT_exp_cwnd30_q46_10perc_VLB0.txt
+../../../src/expander/datacenter/htsim_ndp_expander -simtime 1.00001 -cwnd 30 -q 46 -pullrate 1 -VLB 0 -topfile ../../../topologies/expander_N=130_u=7_ecmp.txt -flowfile ../traffic_gen/flows_u7exp_15percLLload_1sec_650hosts.htsim >> FCT_exp_cwnd30_q46_15perc_VLB0.txt
+../../../src/expander/datacenter/htsim_ndp_expander -simtime 1.00001 -cwnd 30 -q 46 -pullrate 1 -VLB 0 -topfile ../../../topologies/expander_N=130_u=7_ecmp.txt -flowfile ../traffic_gen/flows_u7exp_20percLLload_1sec_650hosts.htsim >> FCT_exp_cwnd30_q46_20perc_VLB0.txt
+../../../src/expander/datacenter/htsim_ndp_expander -simtime 1.00001 -cwnd 30 -q 46 -pullrate 1 -VLB 0 -topfile ../../../topologies/expander_N=130_u=7_ecmp.txt -flowfile ../traffic_gen/flows_u7exp_25percLLload_1sec_650hosts.htsim >> FCT_exp_cwnd30_q46_25perc_VLB0.txt
