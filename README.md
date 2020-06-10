@@ -25,7 +25,7 @@ Packet-level simulation code to model Opera and other networks from the 2020 NSD
 ## Typical workflow:
 
 - Compile the simulator as described above (for Clos, expander, and Opera).
-- Build a topology file (e.g. run /topologies/opera_dynexp_topo_gen/MAIN.m). This must be done once for expander and Opera networks, is not needed for Clos networks.
+- Build a topology file (e.g. run /topologies/opera_dynexp_topo_gen/MAIN.m). This must be done once for expander and Opera networks, is not needed for Clos networks.  This process takes a long time.  If you'd prefer to download the version of this file used to create the NSDI 2020 paper, you can download it from this link (it is too big to host on github): https://www.dropbox.com/s/az6ju4oiwvsljat/dynexp_N%3D108_k%3D12_5paths.txt?dl=0
 - Generate a file specifying the traffic (e.g. run /Figure7_datamining/opera/traffic_gen/generate_traffic.m). The file format is (where src_host and dst_host are indexed from zero):
   ```
   <src_host> <dst_host> <flow_size_bytes> <flow_start_time_nanosec> /newline
